@@ -1,5 +1,8 @@
 #!/bin/bash
 
+source ./common.sh
+app_name=dispatch
+
 START_TIME=$(date +%s)
 USERID=$(id -u)
 R="\e[31m"
